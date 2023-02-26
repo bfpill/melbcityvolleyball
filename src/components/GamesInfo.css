@@ -1,0 +1,61 @@
+.Games-Info {
+    text-align: left;
+    background-color: #ffffff;
+    width: 60%;
+    color: rgb(0, 0, 0);
+    margin-left: 10%;
+}
+.p{
+    font-size: 25px;
+}
+.h2{
+    font-size: 60px;
+}
+.h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.button{
+    min-width: 250px;
+    width: 40%;
+    margin-left: 40px;
+    background-color: #4e7bde;
+    color: #ffffff;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #0088ff;
+    box-shadow: none;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    background-color: #ffffff;
+    width: 50%;
+}
+
+.info-Container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-image{
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%
+}
+
+@media screen and (min-width: 851px) {
+    .logo-image {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 852px) {
+    .logo-image {
+      display: none;
+    }
+  }
