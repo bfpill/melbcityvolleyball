@@ -1,19 +1,16 @@
 import React from 'react';
-import './Home.css';
 import Banner  from "../components/Banner.js"
 import Navbar from "../components/Navbar.js"
-import InfoComp from '../components/InfoComp';
+import InfoComp from '../components/Container';
 import GameInfo from '../components/GamesInfo';
-import Footer from '../components/Footer';
 
 function Home() {
     return (
       <>
       <div className="App">
         <Banner/>
-        <InfoComp />
+        <InfoComp text="Serving Up Fun: Come Play Volleyball with Melb City Volleyball!"/>
         <GameInfo/>
-        <Footer/>
       </div>
       </>
     );

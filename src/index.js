@@ -6,6 +6,8 @@ import "./index.css";
 import Home from "./pages/Home.js";
 import About from "./pages/About";
 import Root from "./pages/Root";
+import Photos from "./pages/Photos"
+import Contact from "./pages/Contact";
 import ErrorPage from "./pages/error-page";
 
 const router = createBrowserRouter([
@@ -24,11 +26,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/Photos",
-        element: <div>About</div>,
+        element: <Photos/>
       },
       {
         path: "/Contact",
-        element: <div>About</div>,
+        element: <Contact/>
       },
     ],
   },

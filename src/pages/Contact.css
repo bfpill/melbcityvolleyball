@@ -1,0 +1,17 @@
+.linkText{
+    font-weight: 200;
+    font-size: 40px;
+}
+.contactText{
+    font-weight: 300;
+    font-size: 40px;
+    color: #1b48ab;
+    margin-right: 20px;
+}
+.contactLink{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.bottomContainer{
+    height: 300px;
+}
