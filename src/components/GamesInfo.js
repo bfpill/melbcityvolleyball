@@ -6,7 +6,9 @@ function GameInfo() {
   return (
     <div className="info-Container">
       <main className="Games-Info">
+        <div className="textBox">
         <h2 className="h2">Upcoming Games</h2>
+        </div>
         <ul>
           <li>
             <h3 className="h3">Wednesday, March 2, 2023</h3>
