@@ -7,16 +7,31 @@
     margin-right: 10%;
 }
 .colourContainer{ 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #1b48ab;
     width: auto;
 }
 .aboutText{
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 25px;
     font-weight: 300;
+}
+
+.imageContainer{
+    background-color: #1b48ab;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.image{
+    object-fit: scale;
+    margin: 3%;
+    width: 94%;
 }

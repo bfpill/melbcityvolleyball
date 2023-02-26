@@ -48,7 +48,6 @@ function Contact() {
         </div>
         <div className="bottomContainer"></div>
 
-      <Container/>
     </>
   );
 }

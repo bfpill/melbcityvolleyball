@@ -1,6 +1,5 @@
 import React from 'react';
 import Banner  from "../components/Banner.js"
-import Navbar from "../components/Navbar.js"
 import InfoComp from '../components/Container';
 import GameInfo from '../components/GamesInfo';
 
@@ -9,7 +8,7 @@ function Home() {
       <>
       <div className="App">
         <Banner/>
-        <InfoComp text="Serving Up Fun: Come Play Volleyball with Melb City Volleyball!"/>
+        <InfoComp text="Serving Up Fun: Come Play Volleyball with Melb City!"/>
         <GameInfo/>
       </div>
       </>
