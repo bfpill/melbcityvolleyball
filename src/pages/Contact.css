@@ -1,10 +1,10 @@
 .linkText{
     font-weight: 200;
-    font-size: 40px;
+    font-size: 20px;
 }
 .contactText{
     font-weight: 300;
-    font-size: 40px;
+    font-size: 20px;
     color: #1b48ab;
     margin-right: 20px;
 }
@@ -15,3 +15,25 @@
 .bottomContainer{
     height: 300px;
 }
+.WhiteContainer{
+background-color: #1b48ab;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 400px) {
+    .linkText{
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .linkText {
+      font-size: 15px;
+    }
+  }
