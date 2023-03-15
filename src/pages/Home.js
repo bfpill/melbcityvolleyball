@@ -1,16 +1,21 @@
 import React from 'react';
 import Banner  from "../components/Banner.js"
-import InfoComp from '../components/Container';
-import GameInfo from '../components/GamesInfo';
-
+import SignUpContainer from '../components/Container';
+import TextButton from "../components/TextButton"
+import "./Home.css"
 function Home() {
     return (
       <>
       <div className="App">
-        <Banner/>
-        <InfoComp text="Serving Up Fun: Come Play Volleyball with Melb City!"/>
-        <GameInfo/>
+        <div className="sideways-container">
+          <Banner/>
+        </div>
+        <SignUpContainer text="SIGN UP"/>
+        <TextButton text="Need help finding a Team?"/>
       </div>
+      <div className="sideways-container">
+          <Banner/>
+        </div>
       </>
     );
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css';
-import bannerSlim from "../images/bannerSlim.png"
+import bannerSlim from "../images/1.png"
 
 function Banner() {
   return (

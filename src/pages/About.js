@@ -7,18 +7,13 @@ import groupPhoto2 from "../images/groupPhoto2.JPG";
 function About() {
   return (
     <>
-      <Container text="About Melb City Volleyball" />
       <div className="colourContainer">
         <h1 className="aboutText">
-          Melb City Volleyball is a community-based organization that is proud
-          to be headquartered in the vibrant city of Melbourne. We welcome
-          players of all skill levels to join our community and participate in
-          the fun and excitement of volleyball.
-          <br />
-          <br />
-          Melb City is run by passionate volleyball players who are committed to
-          making sure your time on the court is as fun as possible.
-          <br />
+        Welcome to the first-ever organized grass volleyball tournament in Victoria, Australia!
+        <br />
+         We are excited to bring this fantastic version of our favourite sport to Australia.
+        <br />
+        Our aim is to regularly host weekend tournaments and 
           <br />
         </h1>
       </div>

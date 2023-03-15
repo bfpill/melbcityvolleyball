@@ -5,9 +5,9 @@ import "./Navbar.css";
 export function Navbar() {
   return (
     <nav className="navbar">
-        <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Contact">Contact</Link>
+        <Link onClick={""} to="/">Home</Link>
+        <Link onClick={""} to="/About">Tournaments</Link>
+        <Link onClick={""} to="/Contact">Contact</Link>
     </nav>
   );
 }

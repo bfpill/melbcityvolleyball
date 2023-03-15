@@ -4,18 +4,46 @@
 }
 
 .App-header {
-  background-color: #1b48ab;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #207D47;
   color: rgb(255, 255, 255);
+  margin-left: 3%;
+  margin-top: 16px;
+  margin-right: 3%;
 }
 
 .container{
-    width: 80%;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.signUpText{
+  margin-left: 3.5%;
+}
+
+.textlink{
+  margin-top: 16px;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #FF0000; /* Replace with your desired shade of red */
+  color: #FFFFFF; /* White font color */
+  border: none;
+  border-radius: 0.25rem; /* Adjust the border radius as desired */
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  transition: all 0.3s ease-in-out; /* Add a transition effect */
+}
+
+button:hover {
+  background-color: #CC0000; /* Darken the background color on hover */
+  transform: translateY(-0.1rem); /* Add a slight vertical translation on hover */
 }
