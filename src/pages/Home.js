@@ -22,12 +22,10 @@ function Home() {
         <div className="container">
       <div className="text">
         <h1>Tournament Location</h1>
-       
       <ul>
-        <li className="details">123 Main St, Anytown USA</li>
-        <li className="details">Parking is available in the lot behind the building</li>
-        <li className="details">Please use the designated visitor spots</li>
-        <li className="details">If those are full, street parking is also available</li>
+        <li className="details">240-564 Royal Parade, Carlton North VIC 3054</li>
+        <li className="details">Parking is available in on the nearby streets </li>
+        <li className="details">Princes Park is also accessible via Tram</li>
       </ul>
       <div>
     </div>

@@ -29,7 +29,8 @@
   
   .details{
     font-size: x-large;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-style: italic;
   }
   
   .image {
@@ -51,14 +52,13 @@
   }
   .details{
     font-size: medium;
-    margin-top: 10px;
   }
   
   .image {
-    margin-left: 6%;
+    margin-left: 3%;
     margin-right: 3%;
     align-self: center;
-    width: 100%;
+    width: 94%;
   }
 }
   

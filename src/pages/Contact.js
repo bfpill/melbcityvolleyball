@@ -4,7 +4,6 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-      <Container text="Contact Us" />
 
         <div className="colourContainer">
           <h1 className="aboutText">
@@ -14,15 +13,15 @@ function Contact() {
                 <strong className="contactText">Email:</strong>{" "}
                 <a
                   className="linkText"
-                  href="mailto:melbcityvolleyball@gmail.com"
+                  href="mailto:vicgrassvolleyball@gmail.com"
                 >
-                  melbcityvolleyball@gmail.com
+                  vicgrassvolleyball@gmail.com
                 </a>
               </li>
               <li className="contactLink">
                 <strong className="contactText">Phone:</strong>{" "}
                 <a className="linkText" href="tel:+1234567890">
-                  +1234567890
+                  +0401 154 327
                 </a>
               </li>
               <li className="contactLink">
@@ -47,7 +46,7 @@ function Contact() {
           </h1>
         </div>
         <div className="bottomContainer"></div>
-
+        <div className="fakeContainer"></div>
     </>
   );
 }
