@@ -3,7 +3,8 @@ import Banner from "../components/Banner.js";
 import SignUpContainer from "../components/Container";
 import TextButton from "../components/TextButton";
 import "./Home.css";
-import bannerSlim from "../images/Banner1.png";
+import VicGrassHorizontal1Grain from "../images/VicGrassHorizontal1Grain.png";
+
 import InfoBanner from "../images/InfoBanner.png";
 import Map from "../images/Map.png"
 
@@ -12,7 +13,7 @@ function Home() {
     <>
       <div className="App">
         <div className="sideways-container">
-          <Banner rotation="0" image={bannerSlim} />
+          <Banner rotation="0" image={VicGrassHorizontal1Grain} />
         </div>
         <div className="sideways-container">
           <Banner image={InfoBanner} />
