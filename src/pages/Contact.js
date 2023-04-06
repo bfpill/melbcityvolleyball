@@ -1,12 +1,10 @@
 import React from "react";
-import Container from "../components/Container";
 import "./Contact.css";
-import grainyLogo from "../images/GrainyVicGrassLogo.png"
 function Contact() {
   return (
     <>
 
-        <div style={{backgroundColor: "white"}}className="container">
+        <div className="colourContainer">
           <h1 className="aboutText">
             <p>For any inquiries, please contact us at:</p>
             <ul>
