@@ -1,23 +1,43 @@
-import React from 'react';
-import Banner  from "../components/Banner.js"
-import SignUpContainer from '../components/Container';
-import TextButton from "../components/TextButton"
-import "./Home.css"
+import React from "react";
+import Banner from "../components/Banner.js";
+import SignUpContainer from "../components/Container";
+import TextButton from "../components/TextButton";
+import "./Home.css";
+import bannerSlim from "../images/Banner1.png";
+import InfoBanner from "../images/InfoBanner.png";
+import Map from "../images/Map.png"
+
 function Home() {
-    return (
-      <>
+  return (
+    <>
       <div className="App">
         <div className="sideways-container">
-          <Banner/>
+          <Banner rotation="0" image={bannerSlim} />
         </div>
-        <SignUpContainer text="SIGN UP"/>
-        <TextButton text="Need help finding a Team?"/>
+        <div className="sideways-container">
+          <Banner image={InfoBanner} />
+        </div>
+        <SignUpContainer text="SIGN UP" />
+        <TextButton type="form" text="Need help finding a Team?" />
+        <div className="container">
+      <div className="text">
+        <h1>Tournament Location</h1>
+      <ul>
+        <li className="details">240-564 Royal Parade, Carlton North VIC 3054</li>
+        <li className="details">Parking is available in on the nearby streets </li>
+        <li className="details">Princes Park is also accessible via Tram</li>
+      </ul>
+      <div>
+    </div>
       </div>
-      <div className="sideways-container">
-          <Banner/>
-        </div>
-      </>
-    );
-  }
-  
-  export default Home;
+      <div className="image">
+        <img src={Map} alt="Image" />
+      </div>
+    </div>
+        <TextButton type="map" text="Open in Google Maps" />
+      </div>
+    </>
+  );
+}
+
+export default Home;

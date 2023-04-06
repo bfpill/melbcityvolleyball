@@ -3,7 +3,62 @@
   }
 
   .sideways-container {
+    width: 100%;
     flex-direction: row;
     display: flex;
+    overflow: hidden;
   }
+
+  .container {
+    display: flex;
+    margin: 3%;
+    background-color: #207D47;
+    flex-direction: row;
+  }
+  
+  .text {
+    margin-bottom: 3%;
+    padding: 20px;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: left;
+    color: white;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .details{
+    font-size: x-large;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  .image {
+    display: flex;
+  }
+  
+  .image img {
+    max-width: 100%;
+  }
+  
+
+@media only screen and (max-width: 737px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .text {
+    width: 70%;
+  }
+  .details{
+    font-size: medium;
+  }
+  
+  .image {
+    margin-left: 3%;
+    margin-right: 3%;
+    align-self: center;
+    width: 94%;
+  }
+}
   
