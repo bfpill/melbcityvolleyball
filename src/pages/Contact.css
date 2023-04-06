@@ -2,12 +2,21 @@
   background-color: #f2f2f2;
   padding: 50px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
+@media only screen and (min-width: 737px) {
+  .logoImage { 
+    width: 400px;
+    height: 100%
+  }
+}
 .aboutText {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 .fakeContainer {
@@ -33,3 +42,4 @@
 .linkText:hover {
   text-decoration: underline;
 }
+
