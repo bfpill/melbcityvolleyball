@@ -1,13 +1,19 @@
 .colourContainer {
-  background-color: #f2f2f2;
+  background-color: rgb(208, 208, 208);
   padding: 50px;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+  align-content: center;
+  align-items: center;
+  
 }
 
 .aboutText {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 .fakeContainer {
@@ -33,3 +39,4 @@
 .linkText:hover {
   text-decoration: underline;
 }
+
