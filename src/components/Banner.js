@@ -1,12 +1,12 @@
 import React from 'react';
 import './Banner.css';
-import bannerSlim from "../images/1.png"
 
-function Banner() {
+
+function Banner({image}) {
   return (
-    <div>
-      <img
-        src={bannerSlim}
+    <div >
+      <img    
+        src={image}
         alt="My Image"
         className="banner-image"
       />
