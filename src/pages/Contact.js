@@ -27,9 +27,9 @@ function Contact() {
                 <strong className="contactText">Facebook:</strong>{" "}
                 <a
                   className="linkText"
-                  href="https://www.facebook.com/melbcityvolleyball/"
+                  href="https://www.facebook.com/vicgrassvolleyball/"
                 >
-                  Melb City Volleyball
+                  Vic Grass Volleyball
                 </a>
               </li>
               <li className="contactLink">
@@ -38,7 +38,7 @@ function Contact() {
                   className="linkText"
                   href="https://www.instagram.com/example"
                 >
-                  @melbcityvb
+                  @vicgrassvolley
                 </a>
               </li>
             </ul>

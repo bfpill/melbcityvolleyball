@@ -25,6 +25,7 @@ function Home() {
         <h1>Tournament Location</h1>
       <ul>
         <li className="details">240-564 Royal Parade, Carlton North VIC 3054</li>
+        <li className="details">Courts will be set up on Field 7</li>
         <li className="details">Parking is available in on the nearby streets </li>
         <li className="details">Princes Park is also accessible via Tram</li>
       </ul>
