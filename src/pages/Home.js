@@ -3,7 +3,7 @@ import Banner from "../components/Banner.js";
 import SignUpContainer from "../components/Container";
 import TextButton from "../components/TextButton";
 import "./Home.css";
-import VicGrassHorizontal1Grain from "../images/VicGrassHorizontal1Grain.png";
+import VicGrassHorizontal1Grain from "../images/22nd.png";
 
 import InfoBanner from "../images/InfoBanner.png";
 import Map from "../images/Map.png"
