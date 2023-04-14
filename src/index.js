@@ -11,6 +11,10 @@ import Contact from "./pages/Contact";
 import ErrorPage from "./pages/error-page";
 
 import Login from "./components/Login";
+import Reset from "./components/Reset";
+import Register from "./components/Register";
+import Dashboard from "./components/Dashboard";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +37,18 @@ const router = createBrowserRouter([
         path: "/Contact",
         element: <Contact/>
       },
+      {
+        path: "/register", 
+        element: <Register/>
+      },
+      {
+        path: "/Reset", 
+        element: <Reset/>
+      },
+      {
+        path: "/Dashboard", 
+        element: <Dashboard/>
+      }
     ],
   },
 ]);
