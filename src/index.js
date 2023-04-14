@@ -10,6 +10,7 @@ import Photos from "./pages/Photos"
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/error-page";
 
+import Login from "./components/Login";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,8 +26,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/Photos",
-        element: <Photos/>
+        path: "/CreateAccount",
+        element: <Login/>
       },
       {
         path: "/Contact",
