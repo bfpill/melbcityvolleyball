@@ -10,10 +10,10 @@ import Photos from "./pages/Photos"
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/error-page";
 
-import Login from "./components/Login";
-import Reset from "./components/Reset";
-import Register from "./components/Register";
-import Dashboard from "./components/Dashboard";
+import Login from "./components/Login.js";
+import Reset from "./components/Reset.js";
+import Register from "./components/Register.js";
+import Dashboard from "./components/Dashboard.js";
 
 const router = createBrowserRouter([
   {
