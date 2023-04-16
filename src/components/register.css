@@ -1,9 +1,21 @@
-.register {
+  .register {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .registerTitle {
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .register__skill__textbox{
+    font-size: 18px;
+    text-align: left;
+    color: #2b7933;
   }
   .register__container {
     display: flex;
@@ -31,3 +43,60 @@
   .register div {
     margin-top: 7px;
   }
+  .experience__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .experience__label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .experience__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1px solid #686868
+  }
+  
+  .experience__option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .experience__option input[type="radio"] {
+    display: none;
+  }
+  
+  .experience__circle {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .experience__option input[type="radio"]:checked ~ .experience__circle {
+    border-color: #007bff;
+    background-color: #8ac0f6;
+  }
+  
+  .experience__text {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  

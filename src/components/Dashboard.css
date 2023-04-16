@@ -1,5 +1,5 @@
 .dashboard {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -11,6 +11,8 @@
     text-align: center;
     background-color: #dcdcdc;
     padding: 30px;
+    height: 100vh;
+    width: 100vw;
   }
   .dashboard__btn {
     padding: 10px;
@@ -19,6 +21,7 @@
     border: none;
     color: white;
     background-color: black;
+    width: fit-content;
   }
   .dashboard div {
     margin-top: 7px;
