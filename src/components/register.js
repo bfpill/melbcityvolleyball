@@ -13,7 +13,7 @@ function Register() {
   const [name, setName] = useState("");
   const [gender, setGender] = useState("");
   const [age, setAge] = useState("");
-  const [experience, setExperience] = useState("");
+  const [experience, setExperience] = useState("unselected");
 
   const [user, loading, error] = useAuthState(auth);
   const navigate = useNavigate();
@@ -23,8 +23,14 @@ function Register() {
   };
 
   const register = () => {
-    if (!name) alert("Please enter name");
-    registerWithEmailAndPassword(name, email, password);
+    if (!name) alert("Please enter a name");
+    else if (!email) alert("Please enter an email");
+    else if (!gender) alert("Please enter Gender");
+    else if (!age) alert("Please enter Age");
+    else if(!password) alert("Please enter a Password");
+    else if (experience === "unselected") alert("Please select an experience level");
+
+    user = registerWithEmailAndPassword(name, email, password);
   };
 
   useEffect(() => {

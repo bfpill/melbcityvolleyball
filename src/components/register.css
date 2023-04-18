@@ -8,14 +8,15 @@
   .registerTitle {
     color: rgb(0, 0, 0);
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
     text-align: left;
   }
   
   .register__skill__textbox{
     font-size: 18px;
     text-align: left;
-    color: #2b7933;
+    color: #101010;
   }
   .register__container {
     display: flex;
@@ -35,7 +36,9 @@
     margin-bottom: 10px;
     border: none;
     color: white;
+    pointer-events: ;
     background-color: black;
+    cursor: pointer;
   }
   .register__google {
     background-color: #4285f4;
