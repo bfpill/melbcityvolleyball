@@ -14,6 +14,7 @@ import Login from "./components/Login.js";
 import Reset from "./components/Reset.js";
 import Register from "./components/Register.js";
 import Dashboard from "./components/Dashboard.js";
+import Rules from "./components/Rules";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/Contact",
         element: <Contact/>
+      },
+      {
+        path: "/Rules", 
+        element: <Rules/>
       },
       {
         path: "/register", 
