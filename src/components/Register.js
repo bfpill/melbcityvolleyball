@@ -27,10 +27,12 @@ function Register() {
     else if (!email) alert("Please enter an email");
     else if (!gender) alert("Please enter Gender");
     else if (!age) alert("Please enter Age");
-    else if(!password) alert("Please enter a Password");
-    else if (experience === "unselected") alert("Please select an experience level");
+    else if (!password) alert("Please enter a Password");
+    else if (experience === "unselected")
+      alert("Please select an experience level");
 
     user = registerWithEmailAndPassword(name, email, password);
+    loading = true;
   };
 
   useEffect(() => {
@@ -81,9 +83,8 @@ function Register() {
             if (charCode < 48 || charCode > 57) {
               e.preventDefault();
             }
-            setAge(e.target.value)}
-          }
-
+            setAge(e.target.value);
+          }}
           placeholder="Age"
         />
         <div className="register__skill__textbox">

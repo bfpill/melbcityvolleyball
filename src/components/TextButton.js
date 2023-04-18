@@ -1,7 +1,7 @@
 import React from "react";
 import "./TextButton.css";
 
-const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLScTZ0z6x7d7sWTOR_iXYQGYI-goKAz_Iv_T452TgcxZ7AoafA/viewform"; 
+const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLScTZ0z6x7d7sWTOR_iXYQGYI-goKAz_Iv_T452TgcxZ7AoafA/viewform?usp=sharing"; 
 const addressUrl = 'https://goo.gl/maps/ypHk6FqEfmCTqogh6';
 
 const handleFormClick = () => {

@@ -36,7 +36,7 @@ function Contact() {
                 <strong className="contactText">Instagram:</strong>{" "}
                 <a
                   className="linkText"
-                  href="https://www.instagram.com/example"
+                  href="https://www.instagram.com/vigrassvolley"
                 >
                   @vicgrassvolley
                 </a>
