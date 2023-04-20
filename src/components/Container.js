@@ -10,7 +10,7 @@ const handleSignUpClick = () => {
 function SignUpContainer(props) {
   return (
     <div>
-        <button onClick = {handleSignUpClick} className="textlink" >SIGN UP</button> 
+        <button onClick = {handleSignUpClick} className="textlink" >CLICK TO SIGN UP FOR APRIL 23RD OPEN TRIPLES</button> 
     </div>
   );
 }

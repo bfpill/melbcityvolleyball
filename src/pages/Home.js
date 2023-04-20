@@ -12,13 +12,13 @@ function Home() {
   return (
     <>
       <div className="App">
+      <SignUpContainer text="SIGN UP FOR APRIL 23rd OPEN TRIPLES" />
         <div className="sideways-container">
           <Banner rotation="0" image={VicGrassHorizontal1Grain} />
         </div>
         <div className="sideways-container">
           <Banner image={InfoBanner} />
         </div>
-        <SignUpContainer text="SIGN UP" />
         <TextButton type="form" text="Need help finding a Team?" />
         <div className="container">
       <div className="text">
@@ -26,7 +26,7 @@ function Home() {
       <ul>
         <li className="details">240-564 Royal Parade, Carlton North VIC 3054</li>
         <li className="details">Courts will be set up on Field 7</li>
-        <li className="details">Parking is available in on the nearby streets </li>
+        <li className="details">Sunday free parking is available in on the nearby streets</li>
         <li className="details">Princes Park is also accessible via Tram</li>
       </ul>
       <div>
