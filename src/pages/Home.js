@@ -4,7 +4,7 @@ import SignUpContainer from "../components/Container";
 import TextButton from "../components/TextButton";
 import "./Home.css";
 import VicGrassHorizontal1Grain from "../images/lowResBanner.png";
-
+import SquareTournamentMain from "../images/SquareTournamentMain.png"
 import InfoBanner from "../images/InfoBanner.png";
 import Map from "../images/Map.png";
 import { Analytics } from "@vercel/analytics/react";
@@ -13,9 +13,9 @@ function Home() {
   return (
     <>
       <div className="App">
-        <SignUpContainer text="SIGN UP FOR APRIL 23rd OPEN TRIPLES" />
+        <SignUpContainer text="SIGN UP FOR MAY 7th GRASS TRIPLES" />
         <div className="sideways-container">
-          <Banner rotation="0" image={VicGrassHorizontal1Grain} />
+          <Banner rotation="0" image={SquareTournamentMain} />
         </div>
         <div className="sideways-container">
           <Banner image={InfoBanner} />
